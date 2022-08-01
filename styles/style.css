@@ -131,7 +131,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e5e7eb;
+    background-color: #e5e7eb;  
 }
 
 .second-content {
@@ -156,7 +156,33 @@ section {
 }
 
 #third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
 
+.btn-like {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    height: 100px;
+    width: 600px;
+    background-color: #3882fc;
+    border-radius: 10px;
+}
+
+.third-content {
+    flex: 2;
+    padding: 10px;
+}
+
+.cta-btn {
+    margin-right: 20px;
+    font-size: 16px;
+    border: 2px solid #fff;
 }
 
 footer {
