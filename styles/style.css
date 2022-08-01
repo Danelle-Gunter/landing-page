@@ -91,7 +91,7 @@ button {
 
 section {
     display: flex;
-    height: 250px;
+    height: 300px;
     margin: 25px auto;
 }
 
@@ -128,23 +128,31 @@ section {
 }
 
 #second {
-    /* display: flex;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     background-color: #e5e7eb;
 }
 
+.second-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .quote {
-    padding: 50px;
+    padding: 0 50px;
     font-style: italic;
-    font-size: 36px;
+    font-size: 30px;
     color: #1f2937;
+    margin: 0 150px;
 }
 
 .attribute {
     font-weight: bold;
     align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 200px;
 }
 
 #third {
