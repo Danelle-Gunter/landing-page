@@ -100,6 +100,31 @@ section {
     flex-direction: column;
     text-align: center;
     background-color: #fff;
+    width: 800px;
+}
+
+#first h2 {
+    margin: 20px 0 40px 0;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882fc;
+    border-radius: 10px;
 }
 
 #second {
